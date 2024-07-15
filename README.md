@@ -1,12 +1,12 @@
 # Big-Sales-Prediction
 Big Sales Data Analysis and Prediction
-Description
+# Description
 
 This project analyzes sales data to build a predictive model using a Random Forest Regressor. It involves data loading, preprocessing, visualization, modeling, and evaluation of the sales predictions.
 Dataset
 
 The dataset used in this project is the Big Sales Data, which contains various features related to sales performance.
-Dependencies
+# Dependencies
 
     pandas
     numpy
@@ -48,7 +48,7 @@ pipeline = Pipeline([
     ('model', RandomForestRegressor(n_estimators=100, random_state=42))
 ])
 
-Evaluation
+# Evaluation
 
 The model's performance is evaluated using the Mean Squared Error (MSE):
 
@@ -57,7 +57,7 @@ python
 mse = mean_squared_error(y_test, y_pred)
 print("Mean Squared Error:", mse)
 
-Results
+# Results
 
 After running the model, the output will include the Mean Squared Error and the predictions for the test set.
 
@@ -66,18 +66,18 @@ plaintext
 Mean Squared Error: 250.67
 Predictions: [3456.78, 2345.67, 4567.89, ...]
 
-Contact
+# Contact
 
 For any questions or feedback, please contact [jhansigonuguntla6@gmail.com].
 Contribution
 
 Contributions to this project are welcome! Feel free to submit a pull request or open an issue.
-Acknowledgements
+# Acknowledgements
 
     YBI Foundation for providing the dataset.
     The open-source community for libraries and tools used in this project.
 
-License
+# License
 
 This project is licensed under the MIT License.
 
