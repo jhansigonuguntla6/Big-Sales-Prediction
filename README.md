@@ -18,15 +18,15 @@ matplotlib
 seaborn
 scikit-learn
 
-# Installation
+ Installation
 
 To install the necessary dependencies, you can use pip:
 
-# bash
+ bash
 
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-# Usage
+ Usage
 
 Load the Dataset: Load the dataset from the provided URL.
 Data Visualization: Visualize the distribution of the sales and the relationships between numerical features.
