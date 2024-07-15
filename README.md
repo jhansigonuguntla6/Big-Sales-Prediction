@@ -1,5 +1,5 @@
 # Big-Sales-Prediction
-Sales Prediction Model
+
 # Description
 
 This project implements a machine learning model to predict sales based on various features using a dataset from the YBI Foundation. The model uses a Random Forest Regressor to analyze and make predictions.
