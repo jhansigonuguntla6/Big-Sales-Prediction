@@ -22,7 +22,7 @@ scikit-learn
 
 To install the necessary dependencies, you can use pip:
 
- bash
+bash
 
 pip install pandas numpy matplotlib seaborn scikit-learn
 
@@ -42,8 +42,8 @@ main.py: Contains the main code for loading data, preprocessing, visualizing, tr
 
 The modeling process involves:
 
-Splitting the data into training and testing sets.
-Using a pipeline for scaling features and fitting a Random Forest Regressor.
+    Splitting the data into training and testing sets.
+    Using a pipeline for scaling features and fitting a Random Forest Regressor.
 
 python
 
@@ -65,7 +65,7 @@ print("Mean Squared Error:", mse)
 
 After running the model, the output will include the Mean Squared Error and the predictions for the test set.
 
-# plaintext
+plaintext
 
 Mean Squared Error: 250.67
 Predictions: [3456.78, 2345.67, 4567.89, ...]
